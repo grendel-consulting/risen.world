@@ -10,7 +10,8 @@
       "groupName": "types-and-linters",
       "matchDepTypes": ["devDependencies"],
       "automerge": true,
-      "matchPackageNames": ["/@types/", "/prettier/"]
+      "matchPackageNames": ["/@types/", "/prettier/"],
+      "matchUpdateTypes": ["patch", "minor"]
     }
   ],
   "pre-commit": {
