@@ -53,6 +53,13 @@ jobs:
         queries: security-extended
 
     - name: Perform CodeQL Analysis
+      id: codeql
       uses: github/codeql-action/analyze@dd746615b3b9d728a6a37ca2045b68ca76d4841a # v3.28.8
       with:
         category: "/language:${{matrix.language}}"
+
+    - name: Upload CodeQL Analysis
+      uses: pixee/upload-tool-results-action@v2.5.0
+      with:
+        tool: codeql
+        file: ${{ steps.codeql.outputs.sarif_file }}
