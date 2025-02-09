@@ -15,7 +15,7 @@ jobs:
         id-token: write
 
     steps:
-      - uses: pixee/upload-tool-results-action@v2.5.0
+      - uses: pixee/upload-tool-results-action@9394b64cae9cd00d86095b2b8dc6423d45507434 # v2.5.0
         with:
           tool: sonar
           sonar-token: ${{ secrets.SONAR_TOKEN }}
