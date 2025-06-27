@@ -9,11 +9,11 @@ importers:
   .:
     devDependencies:
       prettier:
-        specifier: 3.6.1
-        version: 3.6.1
+        specifier: 3.6.2
+        version: 3.6.2
       prettier-plugin-slidev:
         specifier: 1.0.5
-        version: 1.0.5(prettier@3.6.1)
+        version: 1.0.5(prettier@3.6.2)
       turbo:
         specifier: 2.5.4
         version: 2.5.4
@@ -2679,8 +2679,8 @@ packages:
     peerDependencies:
       prettier: ^3.2.4
 
-  prettier@3.6.1:
-    resolution: {integrity: sha512-5xGWRa90Sp2+x1dQtNpIpeOQpTDBs9cZDmA/qs2vDNN2i18PdapqY7CmBeyLlMuGqXJRIOPaCaVZTLNQRWUH/A==}
+  prettier@3.6.2:
+    resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -4180,7 +4180,7 @@ snapshots:
       monaco-editor: 0.52.2
       nanotar: 0.2.0
       pptxgenjs: 4.0.0
-      prettier: 3.6.1
+      prettier: 3.6.2
       recordrtc: 5.6.2
       shiki: 3.6.0
       shiki-magic-move: 1.1.0(shiki@3.6.0)(vue@3.5.16(typescript@5.8.3))
@@ -6479,12 +6479,12 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-plugin-slidev@1.0.5(prettier@3.6.1):
+  prettier-plugin-slidev@1.0.5(prettier@3.6.2):
     dependencies:
       '@slidev/parser': 0.47.5
-      prettier: 3.6.1
+      prettier: 3.6.2
 
-  prettier@3.6.1: {}
+  prettier@3.6.2: {}
 
   prism-theme-vars@0.2.5: {}
 
