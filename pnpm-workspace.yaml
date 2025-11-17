@@ -2,7 +2,13 @@ packages:
   - frontend/*
   - packages/*
 
+minimumReleaseAge: 2160
+
 onlyBuiltDependencies:
   - esbuild
 
-minimumReleaseAge: 2160
+overrides:
+  brace-expansion@>=1.0.0 <=1.1.11: '>=1.1.12'
+  brace-expansion@>=2.0.0 <=2.0.1: '>=2.0.2'
+  esbuild@<=0.24.2: '>=0.25.0'
+  js-yaml@<4.1.1: '>=4.1.1'
